@@ -1,6 +1,7 @@
 import React from "react";
 import 'materialize-css';
 // import { Footer, NavItem, Icon, } from 'react-materialize';
+import Resume from '../images/Hawa Resume January 2022.pdf';
 import '../App.css'
 
 const footer = () => {
@@ -14,10 +15,9 @@ const footer = () => {
 //   moreLinks={<a className="grey-text text-lighten-4 right" href="#!">More Links</a>}
 >
   <h5 className="white-text">
-    Contact Me
+    My Resume
   </h5> 
-  <a href="https://www.instagram.com/xavierbanks__/" target="_blank" class="white-text" >instagram</a>.
-  <a href="mailto:bookingxbanks@gmail.com" target="_blank" class= "white-text">email</a>
+  <a href={Resume} download="Hawa-Resume.pdf" target="blank" class="white-text"> Download </a>
  
   {/* <p className="grey-text text-lighten-4">
     You can use rows and columns here to organize your footer content.

@@ -48,15 +48,6 @@ function Home() {
       >
         Contact Me
       </Button>
-      <h3></h3>
-      <Button   
-        href="mailto:bookingxbanks@gmail.com" target="_blank"
-        node="a"
-        waves="light"
-        className="bio-button grey darken-4 valign-center"
-      >
-        Resume
-      </Button>
     </Card>
   </Col>
 </Row>
