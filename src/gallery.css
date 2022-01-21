@@ -1,3 +1,4 @@
+
 .gallery {
     -webkit-column-count: 2;
     -moz-column-count: 2;
@@ -44,18 +45,20 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: white;
+    background-color:black;
     transition: opacity .4s ease, visibility .4s ease, transform .5s ease-in-out;
     visibility: hidden;
     opacity: 0;
     transform: scale(0);
     overflow: hidden;
     z-index: 999;
+    
 }
 model.open{
     visibility: visible;
     opacity: 1;
     transform: scale(1);
+    background-color: black;
 }
 .model img{
     width: auto;
@@ -67,6 +70,7 @@ model.open{
     box-sizing: boarder-box;
     padding: 20px 0 20px;
     margin: 0 auto;
+    background-color: black;
 }
 .model.open svg{
     position: fixed;

@@ -3,10 +3,10 @@
   /* font-family: 'Advent Pro', sans-serif; */
   font-family: 'Advent Pro', sans-serif;
   font-family: 'Raleway', sans-serif;
-  background-color: black;
-  padding-bottom: 2px;
-  padding-left: 2px;
-  padding-right: 2px;
+  /* background-color: black; */
+  /* padding-bottom: 2px; */
+  /* padding-left: 2px;
+  padding-right: 2px; */
   color: white;
 }
 .footer-fixed footer {
@@ -16,6 +16,7 @@
 	position: fixed;
 	bottom: 0;
 	width: 100%;
+  background-color: black;
 }
 .about-image {
   background-color: black;
@@ -28,7 +29,26 @@
 .bio-button:hover{
   filter: opacity(.8)
 }
+.head-text {
+  position: relative;
+}
+.navbar-fixed {
+  background-color: black;
+}
+/* .text-on-image {
+ position: absolute;
+ background-color: transparent;
+ right: 50%;
+ left: 30%;
+ bottom: 60%;
+}
+.welcome-image {
+  background-color: transparent; 
+  width:100%;
+  height:75%;
+} */
 
 /* buttons:#424242 grey darken-3 */
 /* background:#000000 black */
 /* text:#ffffff white */
+/* psrticles: #0c0c0c */

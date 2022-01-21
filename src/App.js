@@ -7,18 +7,22 @@ import Work from './pages/work';
 import About from './pages/about';
 import Home from './pages/home';
 import Resume from './pages/resume';
+import Mixology from './pages/Lazy-Mixology';
 
 function App () {
   return (
     <>
+    
     <Router>
-
+      
 <Navbar />
 <Routes>
   <Route path='/' element={<Home />} />
   <Route path='/aboutme' element={<About />} />
   <Route path='/work' element={<Work />} />
   <Route path='/resume' element={<Resume />} />
+  <Route path='/Lazy-Mixology' element={<Mixology />} />
+
 
   
   {/* <Route render={() => <h1 className='display-2'>Welcome To Our Site!!</h1>} /> */}

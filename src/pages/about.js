@@ -1,7 +1,7 @@
 import React from "react";
 import 'materialize-css';
 import {Button, Card, Icon, CardTitle, Row, Col} from 'react-materialize';
-import Img8 from '../images/img8.jpg';
+import Img from '../images/hawa-portfolio-pic.jpg';
 
 
 function About() {
@@ -15,7 +15,7 @@ function About() {
      <Card className="about-image"
      
     //  closeIcon={<Icon>close</Icon>}
-     header={<CardTitle image={Img8}></CardTitle>}
+     header={<CardTitle image={Img}></CardTitle>}
     //  revealIcon={<Icon>{Img8}</Icon>}
    >
         </Card>
@@ -37,24 +37,15 @@ function About() {
       textClassName="white-text"
       // title="I am Xavier Banks"
     >
-      <h3>I am Xavier Banks</h3>
-     <h5>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime cumque ea porro eaque quibusdam aut obcaecati earum enim fugit aspernatur, quasi, officiis animi aliquam laboriosam repellat natus neque inventore hic?</h5>
-     <h6>Questions?</h6>
-     <Button
-        href="https://www.instagram.com/xavierbanks__/" target="_blank"
-        node="a"
-        waves="light"
-        className="bio-button grey darken-4 valign-center"
-      >
-        Instagram
-      </Button>
+      <h3>I am Hawa</h3>
+     <h5>I am a graduate from University at Buffalo and the Columbia Engineering coding bootcamp. I am a new web developer who has created many applications, and is now looking to begin my tech career. </h5>
       <Button
-        href="mailto:bookingxbanks@gmail.com" target="_blank"
+        href="mailto:hawa.francis@gmail.com" target="_blank"
         node="a"
         waves="light"
         className="bio-button grey darken-4 valign-center"
       >
-        Email
+        Contact Me
       </Button>
     </Card>
   </Col>

@@ -1,0 +1,19 @@
+.text-on-image {
+    position: absolute;
+    background-color: transparent;
+    right: 50%;
+    left: 30%;
+    bottom: 60%;
+    font-weight: bolder;
+   }
+   .welcome-image {
+     background-color: transparent; 
+     width:100%;
+     height:100%;
+   }
+   .welcome-text {
+       background-color: transparent;
+   }
+   #H1 {
+     font-weight: bolder;
+   }
