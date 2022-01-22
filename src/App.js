@@ -8,6 +8,8 @@ import About from './pages/about';
 import Home from './pages/home';
 import Resume from './pages/resume';
 import Mixology from './pages/Lazy-Mixology';
+import Pets from './pages/Pet-App';
+import Events from './pages/EventsRUs';
 
 function App () {
   return (
@@ -22,6 +24,8 @@ function App () {
   <Route path='/work' element={<Work />} />
   <Route path='/resume' element={<Resume />} />
   <Route path='/Lazy-Mixology' element={<Mixology />} />
+  <Route path='/Pet-App' element={<Pets />} />
+  <Route path='/EventsRUs' element={<Events />} />
 
 
   

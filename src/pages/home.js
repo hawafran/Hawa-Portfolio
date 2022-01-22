@@ -3,6 +3,7 @@ import 'materialize-css';
 import {Button, Card, Icon, CardTitle, Row, Col} from 'react-materialize';
 import '../Home.css'
 import Background from '../images/portfolio-homepage.jpg';
+import Hello from '../images/hello.png';
 
 
 function Home() {
@@ -12,8 +13,8 @@ function Home() {
       <img src = {Background}style={{width: '100%', height:'100%'}} alt = "welcome-page" />
     </div>
       <div class='text-on-image'>
-         <h1> Hello... </h1>
-         <h6> I am Hawa, a web developer </h6>
+      <img src = {Hello}style={{width: '100%', height:'100%'}} alt = "greeting" />   
+         <h5 classNme='greeting-text'> I'm Hawa, a web developer </h5>
          <Button
   href="/work" target="_blank"
   node="a"

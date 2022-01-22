@@ -5,7 +5,7 @@ import {Button, Card, Icon, CardTitle, Row, Col} from 'react-materialize';
 import Img1 from '../images/mixology-home.jpg';
 import Img2 from '../images/pet-home.jpg';
 import Img3 from '../images/events-home.jpg';
-import PageSrc from './Lazy-Mixology';
+import Img4 from '../images/budget-tracker.jpg';
 
 
 
@@ -15,64 +15,64 @@ function About() {
       <Row className= "work-page">
     <Col
       m={6}
-      s={6}
-      className="about-card"
+      s={12}
+      className="work-card"
     >
-       <Card className="about-image"
+       <Card className="work-image"
        
       //  closeIcon={<Icon>close</Icon>}
        header={<CardTitle image={Img1}></CardTitle>}
       //  revealIcon={<Icon>{Img8}</Icon>}
      >
          <Button
-          href="mailto:hawa.francis@gmail.com" target="_blank"
+          href="/Lazy-Mixology" target="_blank"
           node="a"
           waves="light"
           className="bio-button grey darken-4 valign-center"
         >
-          Contact Me
+          Learn More
         </Button>
           </Card>
     </Col>
     <Col
       m={6}
-      s={6}
-      className="about-card"
+      s={12}
+      className="work-card"
     >
-       <Card className="about-image"
+       <Card className="work-image"
        
       //  closeIcon={<Icon>close</Icon>}
        header={<CardTitle image={Img2}></CardTitle>}
       //  revealIcon={<Icon>{Img8}</Icon>}
      >
          <Button
-          href="mailto:hawa.francis@gmail.com" target="_blank"
+          href="/pet-app" target="_blank"
           node="a"
           waves="light"
           className="bio-button grey darken-4 valign-center"
         >
-          Contact Me
+         Learn More
         </Button>
           </Card>
     </Col>
     <Col
       m={6}
-      s={6}
-      className="about-card"
+      s={12}
+      className="work-card"
     >
-       <Card className="about-image"
+       <Card className="work-image"
        
       //  closeIcon={<Icon>close</Icon>}
        header={<CardTitle image={Img3}></CardTitle>}
       //  revealIcon={<Icon>{Img8}</Icon>}
      >
          <Button
-          href="mailto:hawa.francis@gmail.com" target="_blank"
+          href="/EventsRus" target="_blank"
           node="a"
           waves="light"
           className="bio-button grey darken-4 valign-center"
         >
-          Contact Me
+         Learn More
         </Button>
           </Card>
     </Col>

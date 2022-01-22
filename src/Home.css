@@ -1,8 +1,9 @@
 .text-on-image {
     position: absolute;
     background-color: transparent;
-    right: 50%;
-    left: 30%;
+    top: 30%;
+    right: 30%;
+    left: 50%;
     bottom: 60%;
     font-weight: bolder;
    }
@@ -13,7 +14,15 @@
    }
    .welcome-text {
        background-color: transparent;
+       position: absolute;
+       bottom: 0;
+       background: rgb(0, 0, 0);/* Fallback color */
+       background: rgba(0, 0, 0, 0.5);/* Black background with opacity */
+       color:black;
+       width: 100%;
+       padding: 20px;
    }
-   #H1 {
-     font-weight: bolder;
+   .greeting-text {
+     color: black;
+     font-weight: bolder
    }
