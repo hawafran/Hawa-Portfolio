@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import '../gallery.css'
 import 'materialize-css';
 import {Button, Card, Icon, CardTitle, Row, Col} from 'react-materialize';
-import Img1 from '../images/mixology-home.jpg';
+import Img1 from '../images/Lazy-Mixology/home.jpg';
 import Img2 from '../images/pet-home.jpg';
 import Img3 from '../images/events-home.jpg';
 import Img4 from '../images/budget-tracker.jpg';
