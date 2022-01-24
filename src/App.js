@@ -3,13 +3,13 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Footer from './componants/Footer';
 import Navbar from './componants/Navbar';
-import Work from './pages/work';
-import About from './pages/about';
-import Home from './pages/home';
-import Resume from './pages/resume';
-import Mixology from './pages/lazy-mixology';
-import Pets from './pages/fetch';
-import Events from './pages/EventsRUs';
+import Work from './pages/work.js';
+import About from './pages/about.js';
+import Home from './pages/home.js';
+import Resume from './pages/resume.js';
+import Mixology from './pages/lazy-mixology.js';
+import Pets from './pages/fetch.js';
+import Events from './pages/EventsRUs.js';
 
 function App () {
   return (

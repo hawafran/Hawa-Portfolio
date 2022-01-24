@@ -5,7 +5,7 @@ import {Button, Card, Icon, CardTitle, Row, Col} from 'react-materialize';
 import Img1 from '../images/Lazy-Mixology/home.jpg';
 import Img2 from '../images/Fetch/pet-home.jpg';
 import Img3 from '../images/Events/events-home.jpg';
-import Img4 from '../images/budget-tracker.jpg';
+
 
 
 
