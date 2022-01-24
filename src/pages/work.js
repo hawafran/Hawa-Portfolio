@@ -3,8 +3,8 @@ import '../gallery.css'
 import 'materialize-css';
 import {Button, Card, Icon, CardTitle, Row, Col} from 'react-materialize';
 import Img1 from '../images/Lazy-Mixology/home.jpg';
-import Img2 from '../images/pet-home.jpg';
-import Img3 from '../images/events-home.jpg';
+import Img2 from '../images/Fetch/pet-home.jpg';
+import Img3 from '../images/Events/events-home.jpg';
 import Img4 from '../images/budget-tracker.jpg';
 
 
@@ -46,7 +46,7 @@ function About() {
       //  revealIcon={<Icon>{Img8}</Icon>}
      >
          <Button
-          href="/pet-app" target="_blank"
+          href="/Fetch" target="_blank"
           node="a"
           waves="light"
           className="bio-button grey darken-4 valign-center"
