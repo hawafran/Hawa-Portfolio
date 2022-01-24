@@ -1,28 +1,28 @@
-// import React from 'react'
-// import {Container, Header, Grid,} from 'semantic-ui-react'
-// import { Document, Page } from 'react-pdf/dist/esm/entry.webpack';
-// import HResume from '../images/Hawa Resume January 2022.pdf'
+import React from 'react'
+import {Card, Icon, CardTitle, Row, Col} from 'react-materialize';
+import 'materialize-css';
+import Resume from '../images/resume.jpg';
 
 
-// const Resume = () => {
-//     return(
-//       <Container fluid>
-//         <Grid stackable> 
-//           <Grid.Row>
-//             <Grid.Column width={4}>
-//             </Grid.Column>
-//             <Grid.Column width={8}>
-//               <Header className='header' as='h1'>Résumé</Header>
-//               <Document file={HResume}>
-//                 <Page pageNumber={1} />
-//               </Document>
-//             </Grid.Column>
-//             <Grid.Column width={4}>
-//             </Grid.Column>            
-//           </Grid.Row>
-//         </Grid>
-//       </Container>
+
+function About() {
+    return (
+      <Row className= "resume black">
+    <Col
+      m={10}
+      s={20}
+      className="resume-card"
+    >
+       <Card className="resume-image"
+       
+      //  closeIcon={<Icon>close</Icon>}
+       header={<CardTitle image={Resume}></CardTitle>}
+      //  revealIcon={<Icon>{Img8}</Icon>}
+     >
+          </Card>
+    </Col>,
+  </Row>      
+    );
+  }
   
-//     )
-//   }
-//    export default Resume
+  export default About;

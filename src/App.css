@@ -69,6 +69,11 @@
 .card-contect {
   padding: 0px;
 }
+.resume-image {
+  display: block;
+  margin-left:20%;
+ width:80%;
+}
 /* .text-on-image {
  position: absolute;
  background-color: transparent;
@@ -86,3 +91,4 @@
 /* background:#000000 black */
 /* text:#ffffff white */
 /* psrticles: #0c0c0c */
+/* #4dd0e1 cyan lighten-2 */

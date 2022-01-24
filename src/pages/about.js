@@ -6,7 +6,7 @@ import Img from '../images/hawa-portfolio-pic.jpg';
 
 function About() {
   return (
-    <Row>
+    <Row className= "black">
   <Col
     m={5}
     s={10}
@@ -38,7 +38,7 @@ function About() {
       // title="I am Xavier Banks"
     >
       <h3>I am Hawa</h3>
-     <h5>I am a graduate from University at Buffalo and the Columbia Engineering coding bootcamp. I am a new web developer who has created many applications, and is now looking to begin my tech career. </h5>
+     <h5>I am a graduate from University at Buffalo and the Columbia Engineering Coding Bootcamp. I am a new web developer with a background in management and finance, and am now looking to begin my tech career. </h5>
       <Button
         href="mailto:hawa.francis@gmail.com" target="_blank"
         node="a"
