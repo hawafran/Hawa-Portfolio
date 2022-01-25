@@ -1,7 +1,7 @@
-import React, {useState} from 'react';
+import React from 'react';
 import '../gallery.css'
 import 'materialize-css';
-import {Button, Card, Icon, CardTitle, Row, Col} from 'react-materialize';
+import {Button, Card, CardTitle, Row, Col} from 'react-materialize';
 import Img1 from '../images/Lazy-Mixology/home.jpg';
 import Img2 from '../images/Fetch/pet-home.jpg';
 import Img3 from '../images/Events/events-home.jpg';

@@ -6,9 +6,6 @@ import Home from '../images/Lazy-Mixology/home.jpg';
 import Search from '../images/Lazy-Mixology/map.jpg';
 
 
-
-
-
 function About() {
     return (
       <Row className= "projects-page black">

@@ -1,5 +1,5 @@
 import React from 'react'
-import {Card, Icon, CardTitle, Row, Col} from 'react-materialize';
+import {Card,CardTitle, Row, Col} from 'react-materialize';
 import 'materialize-css';
 import Resume from '../images/resume.jpg';
 

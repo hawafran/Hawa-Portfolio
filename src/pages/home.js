@@ -1,6 +1,6 @@
 import React from "react";
 import 'materialize-css';
-import {Button, Card, Icon, CardTitle, Row, Col} from 'react-materialize';
+import {Button} from 'react-materialize';
 import '../Home.css'
 import Background from '../images/portfolio-homepage.jpg';
 import Hello from '../images/hello.png';

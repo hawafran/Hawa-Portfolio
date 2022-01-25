@@ -7,7 +7,7 @@ import Work from './pages/work.js';
 import About from './pages/about.js';
 import Home from './pages/home.js';
 import Resume from './pages/resume.js';
-import Mixology from './pages/lazy-mixology.js';
+import Mixology from 'src/pages/lazy-mixology.js';
 import Pets from './pages/fetch.js';
 import Events from './pages/EventsRUs.js';
 
