@@ -7,7 +7,7 @@ import Work from './pages/work.js';
 import About from './pages/about.js';
 import Home from './pages/home.js';
 import Resume from './pages/resume.js';
-import Mixology from 'src/pages/lazy-mixology.js';
+import Mixology from './pages/Lazy-Mixology.js';
 import Pets from './pages/fetch.js';
 import Events from './pages/EventsRUs.js';
 
@@ -23,7 +23,7 @@ function App () {
   <Route path='/aboutme' element={<About />} />
   <Route path='/work' element={<Work />} />
   <Route path='/resume' element={<Resume />} />
-  <Route path='/lazy-mixology' element={<Mixology />} />
+  <Route path='/Lazy-Mixology' element={<Mixology />} />
   <Route path='/fetch' element={<Pets />} />
   <Route path='/EventsRUs' element={<Events />} />
 
