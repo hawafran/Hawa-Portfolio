@@ -4,13 +4,14 @@ import {Button} from 'react-materialize';
 import '../Home.css'
 import Background from '../images/portfolio-homepage.jpg';
 import Hello from '../images/hello.png';
+import '../gallery.css';
 
 
 function Home() {
   return (  
     <div className = "welcome-text">
     <div className = "welcome-image">
-      <img src = {Background}style={{width: '100%', height:'100%'}} alt = "welcome-page" />
+      <img src = {Background}style={{width: '100%'}} alt = "welcome-page" />
     </div>
       <div class='text-on-image'>
       <img src = {Hello}style={{width: '100%', height:'100%'}} alt = "greeting" />   

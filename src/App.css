@@ -35,6 +35,9 @@
 .navbar-fixed {
   background-color: black;
 }
+.brand-logo {
+  color: #4dd0e1;
+}
 .work-page {
   background-color: black;
   -webkit-column-count: 1;

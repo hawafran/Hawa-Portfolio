@@ -47,6 +47,14 @@ function About() {
       >
         Contact Me
       </Button>
+      <Button
+        href="https://github.com/hawafran" target="_blank"
+        node="a"
+        waves="light"
+        className="bio-button grey darken-4 valign-center"
+      >
+        Github
+      </Button>
     </Card>
   </Col>
 </Row>

@@ -2,6 +2,7 @@ import React from "react";
 import 'materialize-css';
 import { Navbar, NavItem, Icon, } from 'react-materialize';
 import '../App.css'
+import Hawa from '../images/nav-icon.png'
 
 const NavBar = () => {
   

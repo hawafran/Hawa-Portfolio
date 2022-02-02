@@ -2,7 +2,9 @@ import React from "react";
 import 'materialize-css';
 // import { Footer, NavItem, Icon, } from 'react-materialize';
 import Resume from '../images/Hawa Resume January 2022.pdf';
-import '../App.css'
+import '../App.css';
+import Icon from '../images/footer-icon.png'
+
 
 const footer = () => {
   
@@ -17,6 +19,7 @@ const footer = () => {
   <h5 className="white-text">
     My Resume
   </h5> 
+  
   <a href={Resume} download="Hawa-Resume.pdf" target="blank" class="white-text"> Download </a>
  
   {/* <p className="grey-text text-lighten-4">
